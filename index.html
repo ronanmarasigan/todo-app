@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+       <div class="main">
+        <div class=" todo-header">
+            <div>
+                <h2 class="todo-title">My ToDo App</h2>
+                <p class="todo-time" data-time></p>
+            </div>
+            <div class="todo-add">
+                <form action="" data-task>  
+                    <input 
+                    data-input
+                    type="text"
+                    class="new add"
+                    placeholder="Add task"
+                    aria-label="add task"
+                    />
+                <button class="btn create" aria-label="create new list">+</button>
+                </form>
+                
+            </div>
+    
+           </div>
+    
+           <div class="div todo-tasks" data-list>
+    
+           </div>
+           <div class="delete-button">
+            <button class="btn delete-all-tasks" delete-task>Clear Selected Tasks</button>
+        </div>
+       </div>
+       <template id="task-template">
+        <div class="task">
+            <input 
+                type="checkbox"
+            />
+            <label>
+                <span class="custom-checkbox"></span>
+            </label>
+        </div>
+        
+    </template>
+</body>
+</html>
