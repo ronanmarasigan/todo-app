@@ -1,5 +1,5 @@
 :root {
-    --clr-primary: #646784;
+    --clr-primary: #fc6d42;
     --clr-back: #2b6579;
     --clr-light: #bebebe;
     --clr-background: linear-gradient(
@@ -173,4 +173,5 @@ body{
 [type="checkbox"]:checked + label {
     opacity: .5;
 }
+
 
