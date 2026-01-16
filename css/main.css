@@ -4,8 +4,8 @@
     --clr-light: #fca956
     --clr-background: linear-gradient(
         230.86deg,
-        #463a36 20%,
-        #419AB7 100%
+        #fca956 20%,
+        #fca956 100%
       );
     --clr-delete: #a3271e;
       
@@ -173,5 +173,6 @@ body{
 [type="checkbox"]:checked + label {
     opacity: .5;
 }
+
 
 
